@@ -155,6 +155,7 @@
         font-family: Verdana;
         font-size: 14px;
         float:left;
+        color: #009A31;
       }
       
       .status {
