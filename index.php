@@ -179,7 +179,7 @@
         $('label.messageLabel').labelOver('labelover');
         $('label.targetLabel').labelOver('labelover');
         $("#button").click(function() {          
-          var target = 'com.tokudu.demo/' + $('#messageTarget').val();         		
+          var target = 'tokudu/' + $('#messageTarget').val();         		
           var message = $('#messageBody').val();         		
           $('.sent').hide();
           $('.loading').slideToggle('fast');
