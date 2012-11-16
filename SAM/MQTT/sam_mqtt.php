@@ -338,7 +338,7 @@ class SAMConnection_MQTT {
         return false;
     }
 
-    if (in_array(SAM_MQTT_QOS, $options)) {
+    if (array_key_exists(SAM_MQTT_QOS, $options)) {
         $qos = $options[SAM_MQTT_QOS];
     } else {
         $qos = 0;
